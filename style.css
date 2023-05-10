@@ -1,0 +1,81 @@
+.hidden {
+  display: none;
+}
+
+div#weather {
+  font-size: 20px;
+  color: black;
+}
+
+div#quote {
+  font-size: 20px;
+  position: absolute;
+  top: 90%;
+  color: black;
+  font-weight: bold;
+  padding: 20px;
+}
+img {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+ul#todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+div#midde {
+  position: absolute;
+  text-align: center;
+  left: 32%;
+  top: 25%;
+}
+
+input#todo-input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid black;
+  font-size: 20px;
+  width: 500px;
+  height: 30px;
+  text-align: center;
+  background-color: transparent;
+}
+input#todo-input::placeholder {
+  color: black;
+}
+
+ul#todo-list > li {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2#clock {
+  font-size: 60px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+input#input-ID {
+  border-bottom: 2px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 20px;
+  background-color: transparent;
+  text-align: center;
+}
+
+input#input-ID::placeholder {
+  color: black;
+}
+
+input[type="submit"] {
+  border: 1px solid black;
+  background-color: transparent;
+}
